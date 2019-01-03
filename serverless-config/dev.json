@@ -1,0 +1,5 @@
+{
+  "example": {
+    "envVar": "example env variable from dev.json"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "extends": ["plugin:prettier/recommended"],
+  "rules": {
+    "no-unused-vars": "error",
+    "no-unreachable": "error",
+    "no-undef": "error"
+  },
+  "globals": {
+    "console": true,
+    "process": true,
+    "require": true,
+    "Promise": true,
+    "Buffer": true,
+    "__dirname": true,
+    "__file": true,
+    "module": true
+  }
+}
