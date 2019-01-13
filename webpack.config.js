@@ -27,12 +27,25 @@ module.exports = {
         include: __dirname,
         exclude: /node_modules/,
       },
+
+      /* Comment out the followings if you want to import pug files like this:
+       * @example
+       * import someTemplate from './path/to/some-template.pug'
+       */
+      /*
       {
         test: /\.pug$/,
         loader: 'pug-loader',
         include: __dirname,
         exclude: /node_modules/,
       },
+      */
+
+      /* Comment out the followings if you want to import image files like this:
+       * @example
+       * import myLogo from './assets/logo.png'
+       */
+      /*
       {
         test: /\.(png|jpg|gif)$/,
         include: __dirname,
@@ -46,6 +59,7 @@ module.exports = {
           },
         ],
       },
+      */
     ],
   },
 }

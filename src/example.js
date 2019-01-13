@@ -1,4 +1,4 @@
-export const handler = async (event, context) => {
+export default async function(event, context) {
   console.log(JSON.stringify({ event }, null, 2))
   console.log(JSON.stringify({ context }, null, 2))
   return {
